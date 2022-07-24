@@ -19,6 +19,7 @@ nav_elements.addEventListener('click', function() {
 window.addEventListener('load', setTimeout(() => {
     loader.classList.add('loader-out')
     loader.remove()
+    body.classList.remove('open')
 }, 2500))
 
 

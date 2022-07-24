@@ -109,7 +109,7 @@ nav {
 }
 
 
-/*  PAGE 1   */
+/*  HOME PAGE   */
 .home {
     height: 100vh;
     width: 100%;
@@ -185,7 +185,7 @@ nav {
     bottom: 0;
 }
 
-/*  PAGE 2  */
+/*  ADVANTAGES PAGE  */
 .advantages {
     /* height: 100vh; */
     padding-top: 10vh;
@@ -236,7 +236,7 @@ nav {
     margin-top: 1rem;
 }
 
-/*  PAGE 3  */
+/*  PRODUCT PAGE ¨*/
 .product {
     background-color: #1D0B1B;
     width: 100%;
@@ -302,7 +302,7 @@ nav {
 }
 
 .grid .five {
-    margin-top: 5rem;
+    padding-top: 15rem;
     grid-column: 1 / 3;
     grid-row: 3 / 5;
 }
@@ -364,7 +364,7 @@ nav {
     border-radius: 0.8rem;
 } 
 
-/*  PAGE 4  */  
+/*  METAVIEW PAGE ¨*/ 
 .metaview {
     padding-top: 10rem;
     padding-bottom: 10rem;
@@ -436,7 +436,7 @@ nav {
     margin-left: 5rem;
 }
 
-/*  PAGE 5  */  
+/*  FAQ PAGE  */  
 .faq {
     padding-top: 10rem;
     padding-bottom: 10rem;
@@ -529,7 +529,7 @@ nav {
     margin: 1rem;
 }
 
-/*  PAGE 6  */  
+/*  CONTACT PAGE ¨*/
 .contact {
     padding-top: 10rem;
     padding-bottom: 10rem;
@@ -686,7 +686,7 @@ footer .down p {
         z-index: 20;
     }
 
-    .toggle{
+    .toggle {
         display: block;
         font-size: 2rem;
         cursor: pointer;
@@ -694,32 +694,32 @@ footer .down p {
         z-index: 20;
     }
 
-    .logo{
+    .logo {
         position: relative;
         z-index: 20;
     }
 
-    .ouvrir{
+    .ouvrir {
         display: block;
     }
 
-    .fermer{
+    .fermer {
         display: none;
     }
 
-    .open{
+    .open {
         overflow: hidden;
     }
 
-    .open .ouvrir{
+    .open .ouvrir {
         display: none;
     }
 
-    .open .fermer{
+    .open .fermer {
         display: block;
     }
 
-    .menu{
+    .menu {
         position: absolute;
         top: 0;
         left: 0;
@@ -733,7 +733,7 @@ footer .down p {
         transition: transform 1s;
     }
 
-    .menu li a{
+    .menu li a {
         font-size: 2rem;
     }
 
@@ -741,7 +741,7 @@ footer .down p {
         transform: translate(0);
     }
 
-    /*  PAGE 1   */
+    /*  HOME PAGE   */
     .home .title{
         font-size: 2rem;
     }
@@ -758,7 +758,7 @@ footer .down p {
         /* z-index: 10; */
     }
 
-    /*  PAGE 2   */
+    /*  ADVANTAGES PAGE  */
     .advantages .title {
         font-size: 2rem;
     }
@@ -786,7 +786,7 @@ footer .down p {
         height: 25vh;
     }
      
-    /*  PAGE 3 ¨*/
+    /*  PRODUCT PAGE ¨*/
     .grid {
         display: flex;
         flex-direction: column;
@@ -852,7 +852,7 @@ footer .down p {
     }
 
     .grid .five {
-
+        padding: 0;
     }
 
     .try-metaview .title {
@@ -880,7 +880,7 @@ footer .down p {
         font-family: 'Raleway-Bold';
     }
 
-    /*  PAGE 4 ¨*/
+    /*  METAVIEW PAGE ¨*/
     .metaview .title {
         font-size: 2rem;
     }
@@ -932,13 +932,26 @@ footer .down p {
     .partners .list img {
         width: 10rem;
     }
-    /*  PAGE 5  */
+    /*  FAQ PAGE  */
     .faq .questions .question {
-        margin-left: 10rem;
-        margin-right: 10rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
 
-    /*  PAGE 6 ¨*/
+    .faq .questions .question .top .text {
+        /* font-size: 2rem; */
+        text-align: center;
+    }
+
+    .faq .questions .question .down .paragraph {
+        text-align: center;
+    }
+
+    .faq .description {
+        font-size: 1.2rem;
+    }
+
+    /*  CONTACT PAGE ¨*/
     .contact .center {
         flex-direction: column;
         align-items: center;
